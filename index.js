@@ -47,4 +47,13 @@ function getNumberById(
     return num - baseNumber;
 }
 
+const a = generateId(1234, 0);
+console.log("a", a);
+const b = getNumberById(a, 0);
+console.log("b", b);
+const c = generateId(1234, 4);
+console.log("c", c);
+const d = getNumberById(c, 4);
+console.log("d", d);
+
 module.exports = generateId;
