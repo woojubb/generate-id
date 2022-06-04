@@ -3,7 +3,7 @@ const DEFAULT_AVAILABLE_CHARACTERS = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOP
 function generateId(
     index,
     baseNumber = new Date(1970, 1, 1, 0, 0, 0, 0).getTime(),
-    availableCharacters = DEFAULT_AVAILABLE_CHARACTERS_EXTRA
+    availableCharacters = DEFAULT_AVAILABLE_CHARACTERS
 ) {
     const radix = availableCharacters.length;
     const num = (baseNumber + index);
