@@ -1,11 +1,19 @@
 {
-  "name": "generate-id",
-  "version": "1.0.0",
-  "description": "",
+  "name": "generate-short-id",
+  "version": "0.9.1",
+  "description": "Short ID generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "string",
+    "id",
+    "identifier",
+    "uuid",
+    "unique",
+    "short"
+  ],
+  "author": "jungyoun@gmail.com",
+  "license": "MIT"
 }

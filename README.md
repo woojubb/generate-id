@@ -1,1 +1,1 @@
-# generate-id
+# generate-short-id
