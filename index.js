@@ -1,5 +1,14 @@
 const DEFAULT_AVAILABLE_CHARACTERS = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
+/**
+ * it makes a id, based on the number
+ * 
+ * @param {number} index - the number to make the id 
+ * @param {number} length optional, default 4
+ * @param {string} availableCharacters optional, default 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+ * 
+ * @returns {string} the id 
+ */
 function generateId(
     index,
     length = 4,
@@ -25,6 +34,17 @@ function generateId(
         }, [])
         .join('');
 }
+
+
+/**
+ * it makes a pesudo number, based on the id
+ * 
+ * @param {string} id 
+ * @param {number} length - optional, default 4
+ * @param {string} availableCharacters - optional, default 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+ * 
+ * @returns {number} the number
+ */
 
 function getNumberById(
     id,
